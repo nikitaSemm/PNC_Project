@@ -44,7 +44,7 @@ public class TC001_PNC {
             String statusLine = response.getStatusLine();
             System.out.println(statusLine);
             Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
-            Assert.assertTrue(responseBody.contains("Paris"));
+            Assert.assertTrue(responseBody.contains("France"));
 
 
         }
